@@ -1,0 +1,13 @@
+// Globals
+//$heading-font-family: 'Blinker', sans-serif;
+@import '~vuetify/src/styles/settings/_variables.scss';
+
+$card-hover-elevation: 10 !default;
+$container-max-widths: map-deep-merge(
+  (
+    'md': map-get($grid-breakpoints, 'md') * 0.9,
+    'lg': map-get($grid-breakpoints, 'lg') * 0.85,
+    'xl': map-get($grid-breakpoints, 'xl') * 0.75,
+  ),
+  $container-max-widths
+);
