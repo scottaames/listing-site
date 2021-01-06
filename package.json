@@ -46,6 +46,6 @@
     "lodash": "^4.17.15",
     "intersection-observer": "^0.11.0",
     "core-js": "^3.6.5",
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   }
 }
